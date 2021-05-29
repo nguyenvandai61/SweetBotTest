@@ -1,0 +1,31 @@
+{
+  "name": "sweetbot-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongudth/sweetbot-nodejs.git"
+  },
+  "author": "bongudth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bongudth/sweetbot-nodejs/issues"
+  },
+  "homepage": "https://github.com/bongudth/sweetbot-nodejs#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
